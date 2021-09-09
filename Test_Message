@@ -1,4 +1,4 @@
-<?xml version="3.0"?>
+<?xml version="5.0"?>
 <INVOICE_CENTER xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <TRANSPORT_FRAME>
     <TF_CODE>TF01</TF_CODE>
