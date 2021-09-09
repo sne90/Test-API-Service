@@ -1,0 +1,579 @@
+<?xml version="1.0"?>
+<INVOICE_CENTER xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TRANSPORT_FRAME>
+    <TF_CODE>TF01</TF_CODE>
+    <TIMESTAMP>20210201122052</TIMESTAMP>
+    <BATCH_ID>0000002462918383</BATCH_ID>
+    <CONTENT_RECEIVER>
+      <RECEIVER_REF>TE003701011385IC</RECEIVER_REF>
+      <CONTENT_REF>0000002462918383</CONTENT_REF>
+    </CONTENT_RECEIVER>
+    <SENDER>003709119171</SENDER>
+    <FB_REQUEST>1</FB_REQUEST>
+  </TRANSPORT_FRAME>
+  <CONTENT_FRAME>
+    <CF_CODE>CF01</CF_CODE>
+    <NET_SERVICE_ID>003709119171</NET_SERVICE_ID>
+    <BLOCK_ID>0000002462918383</BLOCK_ID>
+    <TIMESTAMP>20210201122052</TIMESTAMP>
+    <BLOCK_RULES>
+      <TRANSACTION_TYPE>00</TRANSACTION_TYPE>
+      <BLOCK_ACTION>00</BLOCK_ACTION>
+      <BLOCK_FORMAT>TEAPPSXML</BLOCK_FORMAT>
+      <FORMAT_VERSION>3.0</FORMAT_VERSION>
+      <CHARACTER_SET>ISO-8859-1</CHARACTER_SET>
+    </BLOCK_RULES>
+    <INVOICES>
+      <INVOICE>
+        <HEADER>
+          <INVOICE_ID>2060313601</INVOICE_ID>
+          <PROCESS_CODE>00</PROCESS_CODE>
+          <INVOICE_TYPE EXTENSION="10010000" UNTDID_CODE="380">00</INVOICE_TYPE>
+          <SPECIFICATION_ID>EN16931</SPECIFICATION_ID>
+          <METHOD_OF_CHARGE>00</METHOD_OF_CHARGE>
+          <SUBJECT>Lasku</SUBJECT>
+          <CREDIT_INVOICE_DATE>20200706</CREDIT_INVOICE_DATE>
+          <INVOICE_DATE>
+            <DATE>
+              <DAY>06</DAY>
+              <MONTH>07</MONTH>
+              <CENTURY>20</CENTURY>
+              <DECADE_AND_YEAR>20</DECADE_AND_YEAR>
+            </DATE>
+          </INVOICE_DATE>
+          <DUE_DATE>
+            <DATE>
+              <DAY>03</DAY>
+              <MONTH>08</MONTH>
+              <CENTURY>20</CENTURY>
+              <DECADE_AND_YEAR>20</DECADE_AND_YEAR>
+            </DATE>
+          </DUE_DATE>
+          <VALUE_DATE>
+            <DATE>
+              <DAY>06</DAY>
+              <MONTH>07</MONTH>
+              <CENTURY>20</CENTURY>
+              <DECADE_AND_YEAR>20</DECADE_AND_YEAR>
+            </DATE>
+          </VALUE_DATE>
+          <DELIVERY_DATE>
+            <DATE>
+              <DAY>06</DAY>
+              <MONTH>07</MONTH>
+              <CENTURY>20</CENTURY>
+              <DECADE_AND_YEAR>20</DECADE_AND_YEAR>
+            </DATE>
+          </DELIVERY_DATE>
+          <TERMS_OF_PAYMENT TERMS_OF_PAYMENT_CODE="Z28N">28 pv netto</TERMS_OF_PAYMENT>
+          <PAYMENT_OVERDUE_FINE>
+            <FREE_TEXT>Toimituksiin sovelletaan Kesko Oyj / Kespron kauppaehtoja. Er&#xE4;p&#xE4;iv&#xE4;n j&#xE4;lkeen tapahtuneesta suorituksesta veloitetaan Kesko Oyj:n kulloinkin yleisesti soveltamaa viiv&#xE4;styskorkoa. </FREE_TEXT>
+          </PAYMENT_OVERDUE_FINE>
+          <CURRENCY>
+            <CODE>EUR</CODE>
+          </CURRENCY>
+          <PAYMENT_INSTRUCTION_IDENTIFIER>89</PAYMENT_INSTRUCTION_IDENTIFIER>
+          <ORDER_INFORMATION ORDER_TYPE="VN">
+            <ORDER_NUMBER>6110106643</ORDER_NUMBER>
+          </ORDER_INFORMATION>
+          <ORDER_INFORMATION ORDER_TYPE="CO">
+            <ORDER_REFERENCE>AG invoice referenve</ORDER_REFERENCE>
+            <ORDER_NUMBER>hv300620201</ORDER_NUMBER>
+          </ORDER_INFORMATION>
+          <PAYER_POSTING_GROUP_DEFAULTS>
+            <POSTING_DEFAULT>
+              <ACCOUNT/>
+              <ACCOUNT_AMOUNT>
+                <AMOUNT SIGN="+" VAT="EXCLUDED">332.07</AMOUNT>
+                <AMOUNT SIGN="+" VAT="INCLUDED">378.56</AMOUNT>
+              </ACCOUNT_AMOUNT>
+              <DIMENSIONS>
+                <DIMENSION>
+                  <DIMENSION_VALUE>ZZEDI</DIMENSION_VALUE>
+                </DIMENSION>
+              </DIMENSIONS>
+              <ACCOUNT_REFERENCE>ZZEDI</ACCOUNT_REFERENCE>
+            </POSTING_DEFAULT>
+          </PAYER_POSTING_GROUP_DEFAULTS>
+          <DELIVERER_REFERENCE>Luomuvalvontaviranomaisen tunnus: FI-EKO-201 </DELIVERER_REFERENCE>
+        </HEADER>
+        <PAYEE>
+          <CUSTOMER_INFORMATION>
+            <CUSTOMER_NAME>Kesko Oyj</CUSTOMER_NAME>
+            <ADDRESS>
+              <STREET_ADDRESS1>PL 1</STREET_ADDRESS1>
+              <POSTAL_CODE>00016</POSTAL_CODE>
+              <POST_OFFICE>KESKO</POST_OFFICE>
+              <COUNTRY>Finland</COUNTRY>
+              <COUNTRY_CODE>FI</COUNTRY_CODE>
+            </ADDRESS>
+            <VAT_NUMBER>FI01098628</VAT_NUMBER>
+            <ORGANIZATION_NUMBER SCHEME_ID="0131">0109862-8</ORGANIZATION_NUMBER>
+            <PARTY_IDENTIFICATION_ID SCHEME_ID="0037">003701098628</PARTY_IDENTIFICATION_ID>
+            <CONTACT_INFORMATION>
+              <CONTACT_PERSON>Kespro asiakaspalvelu</CONTACT_PERSON>
+              <TELEPHONE_NUMBER>+358 10 5329 674</TELEPHONE_NUMBER>
+              <E-MAIL_ADDRESS>kespro.asiakaspalvelu@kesko.fi</E-MAIL_ADDRESS>
+              <FREE_TEXT>www.kespro.fi</FREE_TEXT>
+            </CONTACT_INFORMATION>
+            <LINKS>
+              <LINK TYPE="www.kespro.fi"/>
+            </LINKS>
+            <FREE_TEXT>Muun tavarantoimittajan toimituksissa yhteys toimittajan asiakaspalveluun.</FREE_TEXT>
+          </CUSTOMER_INFORMATION>
+          <BANKS>
+            <BANK_NAME>OP Yrityspankki</BANK_NAME>
+            <SWIFT_CODE>OKOYFIHH</SWIFT_CODE>
+            <IBAN_ACCOUNT_NUMBER>FI41 5000 0120 0009 05</IBAN_ACCOUNT_NUMBER>
+          </BANKS>
+          <NET_SERVICE_ID>003709119171</NET_SERVICE_ID>
+          <INTERMEDIATOR>E204503</INTERMEDIATOR>
+          <EADDRESS_SCHEME_ID_CODE>0037</EADDRESS_SCHEME_ID_CODE>
+          <DOMICILE>Helsinki</DOMICILE>
+          <PAYMENT_MEANS PAYMENT_MEANS_CODE="58"/>
+          <DETAILS_OF_PAYMENT>
+            <FI_PAYMENT_REFERENCE>18311334830603136011</FI_PAYMENT_REFERENCE>
+          </DETAILS_OF_PAYMENT>
+        </PAYEE>
+        <SALES_CONTACT>
+          <CUSTOMER_INFORMATION>
+            <CUSTOMER_NAME>Kesko Oyj / Kespro</CUSTOMER_NAME>
+            <ADDRESS>
+              <STREET_ADDRESS1>PL 1</STREET_ADDRESS1>
+              <POSTAL_CODE>00016</POSTAL_CODE>
+              <POST_OFFICE>KESKO</POST_OFFICE>
+              <COUNTRY_CODE>FI</COUNTRY_CODE>
+            </ADDRESS>
+            <ORGANIZATION_NUMBER>0109862-8</ORGANIZATION_NUMBER>
+            <PARTY_IDENTIFICATION_ID>003701098628</PARTY_IDENTIFICATION_ID>
+          </CUSTOMER_INFORMATION>
+        </SALES_CONTACT>
+        <RECEIVER>
+          <CUSTOMER_INFORMATION>
+            <CUSTOMER_NAME>Kymen Paviljonki Oy</CUSTOMER_NAME>
+            <CUSTOMER_NAME>Kuusankoski</CUSTOMER_NAME>
+            <CUSTOMER_ID>1334830</CUSTOMER_ID>
+            <ADDRESS>
+              <STREET_ADDRESS1>Keltti</STREET_ADDRESS1>
+              <STREET_ADDRESS2> </STREET_ADDRESS2>
+              <POSTAL_CODE>45740</POSTAL_CODE>
+              <POST_OFFICE>Kuusankoski</POST_OFFICE>
+              <COUNTRY_CODE>FI</COUNTRY_CODE>
+            </ADDRESS>
+            <VAT_NUMBER>FI09683725</VAT_NUMBER>
+            <ORGANIZATION_NUMBER SCHEME_ID="0131">0968372-5</ORGANIZATION_NUMBER>
+            <PARTY_IDENTIFICATION_ID SCHEME_ID="0037">003709683725ZZEDI</PARTY_IDENTIFICATION_ID>
+            <CONTACT_INFORMATION>
+              <E-MAIL_ADDRESS>sahkopostilaskuosoite@kesko.fi</E-MAIL_ADDRESS>
+            </CONTACT_INFORMATION>
+            <LANGUAGE_CODE>FI</LANGUAGE_CODE>
+          </CUSTOMER_INFORMATION>
+          <NET_SERVICE_ID>FI7759227787937290</NET_SERVICE_ID>
+          <INTERMEDIATOR>003721291126</INTERMEDIATOR>
+          <EADDRESS_SCHEME_ID_CODE>0021</EADDRESS_SCHEME_ID_CODE>
+        </RECEIVER>
+        <DELIVERER>
+          <CUSTOMER_INFORMATION>
+            <CUSTOMER_NAME>Kesko Oyj / Kespro</CUSTOMER_NAME>
+            <ADDRESS>
+              <STREET_ADDRESS1>PL 1</STREET_ADDRESS1>
+              <POSTAL_CODE>00016</POSTAL_CODE>
+            </ADDRESS>
+          </CUSTOMER_INFORMATION>
+        </DELIVERER>
+        <ORDERER>
+          <CUSTOMER_INFORMATION>
+            <CUSTOMER_NAME>Kymen Paviljonki Oy</CUSTOMER_NAME>
+            <CUSTOMER_NAME>NIMI2</CUSTOMER_NAME>
+            <CUSTOMER_ID>278729</CUSTOMER_ID>
+            <ADDRESS>
+              <STREET_ADDRESS1>Keltti</STREET_ADDRESS1>
+              <POSTAL_CODE>45740</POSTAL_CODE>
+              <POST_OFFICE>Kuusankoski</POST_OFFICE>
+              <COUNTRY_CODE>FI</COUNTRY_CODE>
+            </ADDRESS>
+          </CUSTOMER_INFORMATION>
+        </ORDERER>
+        <DELIVERY_PARTY>
+          <CUSTOMER_INFORMATION>
+            <CUSTOMER_NAME>Kymen Paviljonki Oy</CUSTOMER_NAME>
+            <CUSTOMER_NAME>NIMI2</CUSTOMER_NAME>
+            <CUSTOMER_ID>278729</CUSTOMER_ID>
+            <ADDRESS>
+              <STREET_ADDRESS1>Keltti</STREET_ADDRESS1>
+              <STREET_ADDRESS2> </STREET_ADDRESS2>
+              <POSTAL_CODE>45740</POSTAL_CODE>
+              <POST_OFFICE>Kuusankoski</POST_OFFICE>
+              <COUNTRY>Finland</COUNTRY>
+              <COUNTRY_CODE>FI</COUNTRY_CODE>
+            </ADDRESS>
+            <VAT_NUMBER>FI09683725</VAT_NUMBER>
+            <ORGANIZATION_NUMBER>0968372-5</ORGANIZATION_NUMBER>
+            <PARTY_IDENTIFICATION_ID>003709683725</PARTY_IDENTIFICATION_ID>
+          </CUSTOMER_INFORMATION>
+        </DELIVERY_PARTY>
+        <PAYER>
+          <CUSTOMER_INFORMATION>
+            <CUSTOMER_NAME>Kymen Paviljonki Oy</CUSTOMER_NAME>
+            <CUSTOMER_NAME>Kuusankoski</CUSTOMER_NAME>
+            <CUSTOMER_ID>1334830</CUSTOMER_ID>
+            <ADDRESS>
+              <STREET_ADDRESS1>Keltti</STREET_ADDRESS1>
+              <STREET_ADDRESS2> </STREET_ADDRESS2>
+              <POSTAL_CODE>45740</POSTAL_CODE>
+              <POST_OFFICE>Kuusankoski</POST_OFFICE>
+              <COUNTRY_CODE>FI</COUNTRY_CODE>
+            </ADDRESS>
+          </CUSTOMER_INFORMATION>
+        </PAYER>
+        <ROWS>
+          <ROW ROW_TYPE="MAIN" ROW_ID="1">
+            <ROW_NUMBER>000001</ROW_NUMBER>
+            <FREE_TEXT>SO 6110106643 Header text </FREE_TEXT>
+            <OTHER_PARTNER PARTNER_TYPE="VN" PARTNER_TEXT="TOIMITTAJA">
+              <CUSTOMER_INFORMATION>
+                <CUSTOMER_NAME>Kesko Oyj / Kespro</CUSTOMER_NAME>
+              </CUSTOMER_INFORMATION>
+            </OTHER_PARTNER>
+            <ARTICLE>
+              <DELIVERY_DATE>
+                <DATE>
+                  <DAY>01</DAY>
+                  <MONTH>07</MONTH>
+                  <CENTURY>20</CENTURY>
+                  <DECADE_AND_YEAR>20</DECADE_AND_YEAR>
+                </DATE>
+              </DELIVERY_DATE>
+            </ARTICLE>
+            <ORDER_INFORMATION>
+              <ORDER_DATE>
+                <DATE>
+                  <DAY>30</DAY>
+                  <MONTH>06</MONTH>
+                  <CENTURY>20</CENTURY>
+                  <DECADE_AND_YEAR>20</DECADE_AND_YEAR>
+                </DATE>
+              </ORDER_DATE>
+              <ORDER_REFERENCE>hv300620201</ORDER_REFERENCE>
+            </ORDER_INFORMATION>
+            <DELIVERY_NUMBER>4077994260</DELIVERY_NUMBER>
+            <ROW_TOTAL>
+              <AMOUNT SIGN="+" VAT="EXCLUDED">197.36</AMOUNT>
+              <AMOUNT SIGN="+" VAT="INCLUDED">224.99</AMOUNT>
+            </ROW_TOTAL>
+          </ROW>
+          <ROW ROW_TYPE="SPECIFICATION" ROW_ID="1">
+            <ROW_NUMBER>000001</ROW_NUMBER>
+            <ARTICLE>
+              <ARTICLE_ID>2140</ARTICLE_ID>
+              <ARTICLE_NAME>Menu Kermaviili 5kg lton</ARTICLE_NAME>
+              <DELIVERY_DATE>
+                <DATE>
+                  <DAY>01</DAY>
+                  <MONTH>07</MONTH>
+                  <CENTURY>20</CENTURY>
+                  <DECADE_AND_YEAR>20</DECADE_AND_YEAR>
+                </DATE>
+              </DELIVERY_DATE>
+              <EAN_CODE SCHEME_ID="0160">6410405095053</EAN_CODE>
+              <PRODUCT_GROUP SCHEME_ID="VN" SCHEME_VERSION="2019">2140</PRODUCT_GROUP>
+              <SERIAL_NUMBER>10000189</SERIAL_NUMBER>
+              <FREE_TEXT>Item text for Menu Kermaviili</FREE_TEXT>
+            </ARTICLE>
+            <QUANTITY>
+              <DELIVERED Q_UNIT="KPL" Q_UNIT_UNECE_CODE="PCE" SIGN="+">1.000</DELIVERED>
+              <CHARGED Q_UNIT="KPL" Q_UNIT_UNECE_CODE="PCE" SIGN="+">1.000</CHARGED>
+            </QUANTITY>
+            <ORDER_INFORMATION ORDER_TYPE="CO">
+              <ORDER_NUMBER>hv300620201</ORDER_NUMBER>
+              <FREE_TEXT>SO 6110106643 Header text</FREE_TEXT>
+            </ORDER_INFORMATION>
+            <NOTE_NUMBER>4077994260</NOTE_NUMBER>
+            <DELIVERY_NUMBER>4077994260</DELIVERY_NUMBER>
+            <PRICE_PER_UNIT PR_UNIT="KPL" PR_UNIT_UNECE_CODE="PCE" PR_QTY="1.000">
+              <AMOUNT SIGN="+" VAT="EXCLUDED">12.8947</AMOUNT>
+              <AMOUNT SIGN="+" VAT="INCLUDED">14.7000</AMOUNT>
+            </PRICE_PER_UNIT>
+            <PRICE_PER_UNIT_NET>
+              <AMOUNT SIGN="+" VAT="EXCLUDED">26.6200</AMOUNT>
+              <AMOUNT SIGN="+" VAT="INCLUDED">30.3468</AMOUNT>
+            </PRICE_PER_UNIT_NET>
+            <DISCOUNT TYPE="95">
+              <DISCOUNT_NAME>Alennus %</DISCOUNT_NAME>
+              <PER_CENT>5.00</PER_CENT>
+              <DISCOUNT_FROM_AMOUNT>
+                <AMOUNT SIGN="+" VAT="EXCLUDED">12.89</AMOUNT>
+                <AMOUNT SIGN="+" VAT="INCLUDED">14.69</AMOUNT>
+              </DISCOUNT_FROM_AMOUNT>
+              <DISCOUNT_AMOUNT>
+                <AMOUNT SIGN="-" VAT="EXCLUDED">0.64</AMOUNT>
+                <AMOUNT SIGN="-" VAT="INCLUDED">0.73</AMOUNT>
+              </DISCOUNT_AMOUNT>
+            </DISCOUNT>
+            <ROW_CHARGE TYPE="79">
+              <CHARGE_NAME>Kuljetusveloitus</CHARGE_NAME>
+              <CHARGE_FROM_AMOUNT>
+                <AMOUNT SIGN="+" VAT="EXCLUDED">12.8947</AMOUNT>
+                <AMOUNT SIGN="+" VAT="INCLUDED">14.7000</AMOUNT>
+              </CHARGE_FROM_AMOUNT>
+              <CHARGE_AMOUNT>
+                <AMOUNT SIGN="+" VAT="EXCLUDED">10.37</AMOUNT>
+                <AMOUNT SIGN="+" VAT="INCLUDED">11.82</AMOUNT>
+              </CHARGE_AMOUNT>
+            </ROW_CHARGE>
+            <ROW_CHARGE TYPE="77">
+              <CHARGE_NAME>Pikatoimitusmaksu</CHARGE_NAME>
+              <CHARGE_FROM_AMOUNT>
+                <AMOUNT SIGN="+" VAT="EXCLUDED">12.8947</AMOUNT>
+                <AMOUNT SIGN="+" VAT="INCLUDED">14.7000</AMOUNT>
+              </CHARGE_FROM_AMOUNT>
+              <CHARGE_AMOUNT>
+                <AMOUNT SIGN="+" VAT="EXCLUDED">4.00</AMOUNT>
+                <AMOUNT SIGN="+" VAT="INCLUDED">4.56</AMOUNT>
+              </CHARGE_AMOUNT>
+            </ROW_CHARGE>
+            <ROW_TOTAL>
+              <AMOUNT SIGN="+" VAT="EXCLUDED">26.62</AMOUNT>
+              <AMOUNT SIGN="+" VAT="INCLUDED">30.35</AMOUNT>
+            </ROW_TOTAL>
+            <VAT VAT_TYPE="S">
+              <RATE>14.00</RATE>
+              <VAT_AMOUNT>
+                <AMOUNT SIGN="+" VAT="EXCLUDED">3.73</AMOUNT>
+              </VAT_AMOUNT>
+            </VAT>
+          </ROW>
+          <ROW ROW_TYPE="SPECIFICATION" ROW_ID="1">
+            <ROW_NUMBER>000002</ROW_NUMBER>
+            <ARTICLE>
+              <ARTICLE_ID>2190</ARTICLE_ID>
+              <ARTICLE_NAME>Suomen Hiiva palahiiva 50g</ARTICLE_NAME>
+              <DELIVERY_DATE>
+                <DATE>
+                  <DAY>01</DAY>
+                  <MONTH>07</MONTH>
+                  <CENTURY>20</CENTURY>
+                  <DECADE_AND_YEAR>20</DECADE_AND_YEAR>
+                </DATE>
+              </DELIVERY_DATE>
+              <EAN_CODE SCHEME_ID="0160">6417227301003</EAN_CODE>
+              <PRODUCT_GROUP SCHEME_ID="VN" SCHEME_VERSION="2019">2190</PRODUCT_GROUP>
+              <SERIAL_NUMBER>10000158</SERIAL_NUMBER>
+            </ARTICLE>
+            <QUANTITY>
+              <DELIVERED Q_UNIT="PKT" Q_UNIT_UNECE_CODE="CR" SIGN="+">60.000</DELIVERED>
+              <CHARGED Q_UNIT="LTK" Q_UNIT_UNECE_CODE="CR" SIGN="+">3.000</CHARGED>
+            </QUANTITY>
+            <ORDER_INFORMATION ORDER_TYPE="CO">
+              <ORDER_NUMBER>hv300620201</ORDER_NUMBER>
+            </ORDER_INFORMATION>
+            <NOTE_NUMBER>4077994260</NOTE_NUMBER>
+            <DELIVERY_NUMBER>4077994260</DELIVERY_NUMBER>
+            <PRICE_PER_UNIT PR_UNIT="PKT" PR_UNIT_UNECE_CODE="CR" PR_QTY="60.000">
+              <AMOUNT SIGN="+" VAT="EXCLUDED">0.1618</AMOUNT>
+              <AMOUNT SIGN="+" VAT="INCLUDED">0.1845</AMOUNT>
+            </PRICE_PER_UNIT>
+            <PRICE_PER_UNIT_NET>
+              <AMOUNT SIGN="+" VAT="EXCLUDED">2.8457</AMOUNT>
+              <AMOUNT SIGN="+" VAT="INCLUDED">3.2441</AMOUNT>
+            </PRICE_PER_UNIT_NET>
+            <DISCOUNT TYPE="95">
+              <DISCOUNT_NAME>Alennus %</DISCOUNT_NAME>
+              <PER_CENT>10.00</PER_CENT>
+              <DISCOUNT_FROM_AMOUNT>
+                <AMOUNT SIGN="+" VAT="EXCLUDED">9.71</AMOUNT>
+                <AMOUNT SIGN="+" VAT="INCLUDED">11.06</AMOUNT>
+              </DISCOUNT_FROM_AMOUNT>
+              <DISCOUNT_AMOUNT>
+                <AMOUNT SIGN="-" VAT="EXCLUDED">18.97</AMOUNT>
+                <AMOUNT SIGN="-" VAT="INCLUDED">21.63</AMOUNT>
+              </DISCOUNT_AMOUNT>
+            </DISCOUNT>
+            <ROW_CHARGE TYPE="98">
+              <CHARGE_NAME>SER-kierr&#xE4;tysmaksu</CHARGE_NAME>
+              <CHARGE_FROM_AMOUNT>
+                <AMOUNT SIGN="+" VAT="EXCLUDED">9.7086</AMOUNT>
+                <AMOUNT SIGN="+" VAT="INCLUDED">11.0700</AMOUNT>
+              </CHARGE_FROM_AMOUNT>
+              <CHARGE_AMOUNT>
+                <AMOUNT SIGN="+" VAT="EXCLUDED">180.00</AMOUNT>
+                <AMOUNT SIGN="+" VAT="INCLUDED">205.20</AMOUNT>
+              </CHARGE_AMOUNT>
+            </ROW_CHARGE>
+            <ROW_TOTAL>
+              <AMOUNT SIGN="+" VAT="EXCLUDED">170.74</AMOUNT>
+              <AMOUNT SIGN="+" VAT="INCLUDED">194.64</AMOUNT>
+            </ROW_TOTAL>
+            <VAT VAT_TYPE="S">
+              <RATE>14.00</RATE>
+              <VAT_AMOUNT>
+                <AMOUNT SIGN="+" VAT="EXCLUDED">23.90</AMOUNT>
+              </VAT_AMOUNT>
+            </VAT>
+          </ROW>
+          <ROW ROW_TYPE="SUBTOTAL" ROW_ID="1">
+            <ROW_NUMBER>000001</ROW_NUMBER>
+            <ARTICLE>
+              <ARTICLE_NAME>Yhteens&#xE4;</ARTICLE_NAME>
+            </ARTICLE>
+            <ROW_TOTAL>
+              <AMOUNT SIGN="+" VAT="EXCLUDED">197.36</AMOUNT>
+              <AMOUNT SIGN="+" VAT="INCLUDED">224.99</AMOUNT>
+            </ROW_TOTAL>
+          </ROW>
+          <ROW ROW_TYPE="MAIN" ROW_ID="2">
+            <ROW_NUMBER>000003</ROW_NUMBER>
+            <FREE_TEXT>SO 6139390839 Header text </FREE_TEXT>
+            <OTHER_PARTNER PARTNER_TYPE="VN" PARTNER_TEXT="TOIMITTAJA">
+              <CUSTOMER_INFORMATION>
+                <CUSTOMER_NAME>Kesko Oyj / Kespro</CUSTOMER_NAME>
+              </CUSTOMER_INFORMATION>
+            </OTHER_PARTNER>
+            <ARTICLE>
+              <DELIVERY_DATE>
+                <DATE>
+                  <DAY>01</DAY>
+                  <MONTH>07</MONTH>
+                  <CENTURY>20</CENTURY>
+                  <DECADE_AND_YEAR>20</DECADE_AND_YEAR>
+                </DATE>
+              </DELIVERY_DATE>
+            </ARTICLE>
+            <ORDER_INFORMATION>
+              <ORDER_DATE>
+                <DATE>
+                  <DAY>29</DAY>
+                  <MONTH>06</MONTH>
+                  <CENTURY>20</CENTURY>
+                  <DECADE_AND_YEAR>20</DECADE_AND_YEAR>
+                </DATE>
+              </ORDER_DATE>
+              <ORDER_REFERENCE>29062020kuc23</ORDER_REFERENCE>
+            </ORDER_INFORMATION>
+            <DELIVERY_NUMBER>4094414941</DELIVERY_NUMBER>
+            <ROW_TOTAL>
+              <AMOUNT SIGN="+" VAT="EXCLUDED">134.71</AMOUNT>
+              <AMOUNT SIGN="+" VAT="INCLUDED">153.57</AMOUNT>
+            </ROW_TOTAL>
+          </ROW>
+          <ROW ROW_TYPE="SPECIFICATION" ROW_ID="2">
+            <ROW_NUMBER>000003</ROW_NUMBER>
+            <ARTICLE>
+              <ARTICLE_ID>1053</ARTICLE_ID>
+              <ARTICLE_NAME>Menu Broilerin mar rintafilee n4kg</ARTICLE_NAME>
+              <DELIVERY_DATE>
+                <DATE>
+                  <DAY>01</DAY>
+                  <MONTH>07</MONTH>
+                  <CENTURY>20</CENTURY>
+                  <DECADE_AND_YEAR>20</DECADE_AND_YEAR>
+                </DATE>
+              </DELIVERY_DATE>
+              <EAN_CODE SCHEME_ID="0160">6407720628875</EAN_CODE>
+              <PRODUCT_GROUP SCHEME_ID="VN" SCHEME_VERSION="2019">1053</PRODUCT_GROUP>
+              <SERIAL_NUMBER>10005769</SERIAL_NUMBER>
+              <FREE_TEXT>Item text for Menu Broilerin mar rintafilee</FREE_TEXT>
+              <ARTICLE_DESCRIPTIONS>
+                <ARTICLE_DESCRIPTION>
+                  <DESCRIPTION_TYPE DESCRIPTION_ID="EXCLUDED">Vertailuhinta </DESCRIPTION_TYPE>
+                  <DESCRIPTION_UNIT>KG</DESCRIPTION_UNIT>
+                  <DESCRIPTION_VALUE>7.41</DESCRIPTION_VALUE>
+                </ARTICLE_DESCRIPTION>
+                <ARTICLE_DESCRIPTION>
+                  <DESCRIPTION_TYPE DESCRIPTION_ID="INCLUDED">Vertailuhinta </DESCRIPTION_TYPE>
+                  <DESCRIPTION_UNIT>KG</DESCRIPTION_UNIT>
+                  <DESCRIPTION_VALUE>8.45</DESCRIPTION_VALUE>
+                </ARTICLE_DESCRIPTION>
+              </ARTICLE_DESCRIPTIONS>
+            </ARTICLE>
+            <QUANTITY>
+              <DELIVERED Q_UNIT="KG" Q_UNIT_UNECE_CODE="Z8" SIGN="+">18.185</DELIVERED>
+              <CHARGED Q_UNIT="TB" Q_UNIT_UNECE_CODE="Z8" SIGN="+">4.546</CHARGED>
+            </QUANTITY>
+            <ORDER_INFORMATION ORDER_TYPE="CO">
+              <ORDER_NUMBER>29062020kuc23</ORDER_NUMBER>
+              <FREE_TEXT>SO 6139390839 Header text</FREE_TEXT>
+            </ORDER_INFORMATION>
+            <NOTE_NUMBER>4094414941</NOTE_NUMBER>
+            <DELIVERY_NUMBER>4094414941</DELIVERY_NUMBER>
+            <PRICE_PER_UNIT PR_UNIT="KG" PR_UNIT_UNECE_CODE="Z8" PR_QTY="18.185">
+              <AMOUNT SIGN="+" VAT="EXCLUDED">7.7983</AMOUNT>
+              <AMOUNT SIGN="+" VAT="INCLUDED">8.8901</AMOUNT>
+            </PRICE_PER_UNIT>
+            <PRICE_PER_UNIT_NET>
+              <AMOUNT SIGN="+" VAT="EXCLUDED">7.4078</AMOUNT>
+              <AMOUNT SIGN="+" VAT="INCLUDED">8.4449</AMOUNT>
+            </PRICE_PER_UNIT_NET>
+            <DISCOUNT TYPE="95">
+              <DISCOUNT_NAME>Alennus %</DISCOUNT_NAME>
+              <PER_CENT>5.00</PER_CENT>
+              <DISCOUNT_FROM_AMOUNT>
+                <AMOUNT SIGN="+" VAT="EXCLUDED">141.8</AMOUNT>
+                <AMOUNT SIGN="+" VAT="INCLUDED">161.65</AMOUNT>
+              </DISCOUNT_FROM_AMOUNT>
+              <DISCOUNT_AMOUNT>
+                <AMOUNT SIGN="-" VAT="EXCLUDED">7.09</AMOUNT>
+                <AMOUNT SIGN="-" VAT="INCLUDED">8.08</AMOUNT>
+              </DISCOUNT_AMOUNT>
+            </DISCOUNT>
+            <ROW_TOTAL>
+              <AMOUNT SIGN="+" VAT="EXCLUDED">134.71</AMOUNT>
+              <AMOUNT SIGN="+" VAT="INCLUDED">153.57</AMOUNT>
+            </ROW_TOTAL>
+            <VAT VAT_TYPE="S">
+              <RATE>14.00</RATE>
+              <VAT_AMOUNT>
+                <AMOUNT SIGN="+" VAT="EXCLUDED">18.86</AMOUNT>
+              </VAT_AMOUNT>
+            </VAT>
+          </ROW>
+          <ROW ROW_TYPE="SUBTOTAL" ROW_ID="2">
+            <ROW_NUMBER>000003</ROW_NUMBER>
+            <ARTICLE>
+              <ARTICLE_NAME>Yhteens&#xE4;</ARTICLE_NAME>
+            </ARTICLE>
+            <ROW_TOTAL>
+              <AMOUNT SIGN="+" VAT="EXCLUDED">134.71</AMOUNT>
+              <AMOUNT SIGN="+" VAT="INCLUDED">153.57</AMOUNT>
+            </ROW_TOTAL>
+          </ROW>
+        </ROWS>
+        <SUMMARY>
+          <ROWS_TOTAL>
+            <AMOUNT SIGN="+" VAT="EXCLUDED">332.07</AMOUNT>
+            <AMOUNT SIGN="+" VAT="INCLUDED">378.56</AMOUNT>
+          </ROWS_TOTAL>
+          <INVOICE_TOTAL>
+            <AMOUNT SIGN="+" VAT="EXCLUDED">332.07</AMOUNT>
+            <AMOUNT SIGN="+" VAT="INCLUDED">378.56</AMOUNT>
+          </INVOICE_TOTAL>
+          <VAT_SUMMARY VAT_TYPE="S">
+            <RATE>14.00</RATE>
+            <ACCORDING>
+              <AMOUNT SIGN="+" VAT="EXCLUDED">332.07</AMOUNT>
+            </ACCORDING>
+            <VAT_ADDITIONAL_INFO>
+              <VAT_INFO>
+                <BASE_DESCRIPTION>a. Elintarvikkeet</BASE_DESCRIPTION>
+                <BASE_AMOUNT>
+                  <AMOUNT SIGN="+" VAT="INCLUDED">378.56</AMOUNT>
+                </BASE_AMOUNT>
+              </VAT_INFO>
+            </VAT_ADDITIONAL_INFO>
+            <VAT_RATE_TOTAL>
+              <AMOUNT SIGN="+" VAT="EXCLUDED">46.49</AMOUNT>
+            </VAT_RATE_TOTAL>
+            <VAT_GROUP_TOTAL>
+              <AMOUNT SIGN="+" VAT="INCLUDED">378.56</AMOUNT>
+            </VAT_GROUP_TOTAL>
+            <CURRENCY_CODE>EUR</CURRENCY_CODE>
+          </VAT_SUMMARY>
+          <VAT_TOTAL>
+            <AMOUNT SIGN="+" VAT="EXCLUDED">46.49</AMOUNT>
+          </VAT_TOTAL>
+          <FREE_TEXT>Veloitetaan tilisiirtoveloituksena pankkitililt&#xE4;nne</FREE_TEXT>
+        </SUMMARY>
+      </INVOICE>
+    </INVOICES>
+  </CONTENT_FRAME>
+</INVOICE_CENTER>
